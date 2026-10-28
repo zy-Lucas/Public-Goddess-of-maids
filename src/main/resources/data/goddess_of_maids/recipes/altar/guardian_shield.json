@@ -1,0 +1,39 @@
+{
+  "type": "touhou_little_maid:altar_crafting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "touhou_little_maid"
+    }
+  ],
+  "output": {
+    "type": "minecraft:item",
+    "nbt": {
+      "Item": {
+        "id": "goddess_of_maids:guardian_shield",
+        "Count": 1
+      }
+    }
+  },
+  "power": 0.5,
+  "ingredients": [
+    {
+      "item": "minecraft:shield"
+    },
+    {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    {
+      "item": "goddess_of_maids:laoda_shard"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "minecraft:crying_obsidian"
+    },
+    {
+      "item": "minecraft:turtle_helmet"
+    }
+  ]
+}

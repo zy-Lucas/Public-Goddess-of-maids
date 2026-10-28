@@ -1,0 +1,28 @@
+{
+  "blend": {
+    "func": "add",
+    "srcrgb": "srcalpha",
+    "dstrgb": "1-srcalpha"
+  },
+  "vertex": "goddess_of_maids:black_hole",
+  "fragment": "goddess_of_maids:black_hole",
+  "attributes": [
+    "Position",
+    "UV0",
+    "Color",
+    "Normal"
+  ],
+  "samplers": [
+    { "name": "ScreenTexture" }
+  ],
+  "uniforms": [
+    { "name": "ModelViewMat", "type": "matrix4x4", "count": 16, "values": [ 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0 ] },
+    { "name": "ProjMat", "type": "matrix4x4", "count": 16, "values": [ 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0 ] },
+    { "name": "Center", "type": "float", "count": 3, "values": [ 0.0, 0.0, -1.0 ] },
+    { "name": "Intensity", "type": "float", "count": 1, "values": [ 1.0 ] },
+    { "name": "Radius", "type": "float", "count": 1, "values": [ 1.0 ] },
+    { "name": "Horizon", "type": "float", "count": 1, "values": [ 0.25 ] },
+    { "name": "Bend", "type": "float", "count": 1, "values": [ 0.25 ] },
+    { "name": "EdgeBand", "type": "float", "count": 1, "values": [ 0.22 ] }
+  ]
+}

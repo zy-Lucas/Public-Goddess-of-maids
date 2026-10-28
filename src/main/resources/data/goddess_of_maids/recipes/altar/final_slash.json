@@ -1,0 +1,39 @@
+{
+  "type": "touhou_little_maid:altar_crafting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "touhou_little_maid"
+    }
+  ],
+  "output": {
+    "type": "minecraft:item",
+    "nbt": {
+      "Item": {
+        "id": "goddess_of_maids:final_slash",
+        "Count": 1
+      }
+    }
+  },
+  "power": 0.9,
+  "ingredients": [
+    {
+      "item": "minecraft:netherite_sword"
+    },
+    {
+      "item": "minecraft:beacon"
+    },
+    {
+      "item": "minecraft:netherite_block"
+    },
+    {
+      "item": "minecraft:netherite_block"
+    },
+    {
+      "item": "minecraft:netherite_block"
+    },
+    {
+      "item": "minecraft:netherite_block"
+    }
+  ]
+}

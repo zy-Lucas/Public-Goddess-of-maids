@@ -1,0 +1,262 @@
+{
+    "blend": {
+        "func": "add",
+        "srcrgb": "srcalpha",
+        "dstrgb": "one_minus_src_alpha"
+    },
+    "vertex": "goddess_of_maids:space_break",
+    "fragment": "goddess_of_maids:space_break",
+    "attributes": [
+        "Position"
+    ],
+    "samplers": [
+        {
+            "name": "DiffuseSampler"
+        }
+    ],
+    "uniforms": [
+        {
+            "name": "ProjMat",
+            "type": "matrix4x4",
+            "count": 16,
+            "values": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ]
+        },
+        {
+            "name": "OutSize",
+            "type": "float",
+            "count": 2,
+            "values": [
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "Progress",
+            "type": "float",
+            "count": 1,
+            "values": [
+                0.0
+            ]
+        },
+        {
+            "name": "Center",
+            "type": "float",
+            "count": 2,
+            "values": [
+                0.5,
+                0.5
+            ]
+        },
+        {
+            "name": "Radius",
+            "type": "float",
+            "count": 1,
+            "values": [
+                0.22
+            ]
+        },
+        {
+            "name": "Aspect",
+            "type": "float",
+            "count": 1,
+            "values": [
+                1.0
+            ]
+        },
+        {
+            "name": "Time",
+            "type": "float",
+            "count": 1,
+            "values": [
+                0.0
+            ]
+        },
+        {
+            "name": "Squash",
+            "type": "float",
+            "count": 1,
+            "values": [
+                1.0
+            ]
+        },
+        {
+            "name": "CamLook",
+            "type": "float",
+            "count": 3,
+            "values": [
+                0.0,
+                0.0,
+                1.0
+            ]
+        },
+        {
+            "name": "CamRight",
+            "type": "float",
+            "count": 3,
+            "values": [
+                1.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "name": "CamUp",
+            "type": "float",
+            "count": 3,
+            "values": [
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        {
+            "name": "TanX",
+            "type": "float",
+            "count": 1,
+            "values": [
+                0.7
+            ]
+        },
+        {
+            "name": "TanY",
+            "type": "float",
+            "count": 1,
+            "values": [
+                0.5
+            ]
+        },
+        {
+            "name": "Parallax",
+            "type": "float",
+            "count": 1,
+            "values": [
+                -0.25
+            ]
+        },
+        {
+            "name": "CamPos",
+            "type": "float",
+            "count": 3,
+            "values": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "name": "CrackPos",
+            "type": "float",
+            "count": 3,
+            "values": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "name": "BaseLook",
+            "type": "float",
+            "count": 3,
+            "values": [
+                0.0,
+                0.0,
+                1.0
+            ]
+        },
+        {
+            "name": "BaseRight",
+            "type": "float",
+            "count": 3,
+            "values": [
+                1.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "name": "BaseUp",
+            "type": "float",
+            "count": 3,
+            "values": [
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        {
+            "name": "CrackNormal",
+            "type": "float",
+            "count": 3,
+            "values": [
+                0.0,
+                0.0,
+                -1.0
+            ]
+        },
+        {
+            "name": "WorldRadius",
+            "type": "float",
+            "count": 1,
+            "values": [
+                7.0
+            ]
+        },
+        {
+            "name": "Portal",
+            "type": "float",
+            "count": 1,
+            "values": [
+                0.0
+            ]
+        },
+        {
+            "name": "Open",
+            "type": "float",
+            "count": 1,
+            "values": [
+                0.0
+            ]
+        },
+        {
+            "name": "Freeze",
+            "type": "float",
+            "count": 1,
+            "values": [
+                0.0
+            ]
+        },
+        {
+            "name": "Shrink",
+            "type": "float",
+            "count": 1,
+            "values": [
+                1.0
+            ]
+        },
+        {
+            "name": "Tiles",
+            "type": "float",
+            "count": 1,
+            "values": [
+                9.0
+            ]
+        }
+    ]
+}

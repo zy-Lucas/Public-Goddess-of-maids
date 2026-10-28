@@ -1,0 +1,30 @@
+{
+  "blend": {
+    "func": "add",
+    "srcrgb": "srcalpha",
+    "dstrgb": "1-srcalpha"
+  },
+  "vertex": "goddess_of_maids:volumetric_fog",
+  "fragment": "goddess_of_maids:volumetric_fog",
+  "attributes": [
+    "Position",
+    "Color",
+    "UV0",
+    "UV1",
+    "UV2",
+    "Normal"
+  ],
+  "uniforms": [
+    { "name": "ModelViewMat", "type": "matrix4x4", "count": 16, "values": [ 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0 ] },
+    { "name": "ProjMat",      "type": "matrix4x4", "count": 16, "values": [ 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0 ] },
+    { "name": "CameraPos",    "type": "float", "count": 3, "values": [ 0.0, 0.0, 0.0 ] },
+    { "name": "FogCenter",    "type": "float", "count": 3, "values": [ 0.0, 0.0, 0.0 ] },
+    { "name": "FogRadius",    "type": "float", "count": 1, "values": [ 2.0 ] },
+    { "name": "FogDensity",   "type": "float", "count": 1, "values": [ 0.85 ] },
+    { "name": "AmbientColor", "type": "float", "count": 3, "values": [ 0.42, 0.45, 0.52 ] },
+    { "name": "LightColor",   "type": "float", "count": 3, "values": [ 0.42, 0.40, 0.37 ] },
+    { "name": "NoiseScale",   "type": "float", "count": 1, "values": [ 1.15 ] },
+    { "name": "Time",         "type": "float", "count": 1, "values": [ 0.0 ] },
+    { "name": "SolidMode",    "type": "float", "count": 1, "values": [ 0.0 ] }
+  ]
+}

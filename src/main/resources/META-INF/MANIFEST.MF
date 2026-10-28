@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+MixinConfigs: goddess_of_maids.mixins.json
+Specification-Title: goddess_of_maids
+Specification-Vendor: Myx00X
+Specification-Version: 1
+Implementation-Title: goddess_of_maids
+Implementation-Version: 5.9.4
+

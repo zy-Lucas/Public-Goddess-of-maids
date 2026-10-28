@@ -1,0 +1,39 @@
+{
+  "type": "touhou_little_maid:altar_crafting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "touhou_little_maid"
+    }
+  ],
+  "output": {
+    "type": "minecraft:item",
+    "nbt": {
+      "Item": {
+        "id": "goddess_of_maids:devoted_heart",
+        "Count": 1
+      }
+    }
+  },
+  "power": 0.35,
+  "ingredients": [
+    {
+      "item": "minecraft:poppy"
+    },
+    {
+      "item": "minecraft:lava_bucket"
+    },
+    {
+      "item": "minecraft:bell"
+    },
+    {
+      "item": "minecraft:heart_of_the_sea"
+    },
+    {
+      "item": "minecraft:magma_cream"
+    },
+    {
+      "item": "minecraft:cake"
+    }
+  ]
+}

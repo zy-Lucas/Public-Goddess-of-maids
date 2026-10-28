@@ -1,0 +1,15 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 60,
+    "separation": 34,
+    "salt": 20261009,
+    "locate_offset": [-12, 8, -12]
+  },
+  "structures": [
+    {
+      "structure": "goddess_of_maids:mossy_relic",
+      "weight": 1
+    }
+  ]
+}

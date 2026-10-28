@@ -1,0 +1,39 @@
+{
+  "type": "touhou_little_maid:altar_crafting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "touhou_little_maid"
+    }
+  ],
+  "output": {
+    "type": "minecraft:item",
+    "nbt": {
+      "Item": {
+        "id": "goddess_of_maids:energy_core",
+        "Count": 1
+      }
+    }
+  },
+  "power": 0.4,
+  "ingredients": [
+    {
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "minecraft:iron_block"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "minecraft:lava_bucket"
+    },
+    {
+      "item": "minecraft:iron_block"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    }
+  ]
+}

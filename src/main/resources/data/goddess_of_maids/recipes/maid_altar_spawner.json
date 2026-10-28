@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "tag": "goddess_of_maids:altar_spawner_ingredient" },
+    { "tag": "goddess_of_maids:altar_spawner_ingredient" },
+    { "tag": "goddess_of_maids:altar_spawner_ingredient" },
+    { "tag": "goddess_of_maids:altar_spawner_ingredient" },
+    { "item": "minecraft:diamond" },
+    { "tag": "goddess_of_maids:altar_spawner_ingredient" },
+    { "tag": "goddess_of_maids:altar_spawner_ingredient" },
+    { "tag": "goddess_of_maids:altar_spawner_ingredient" },
+    { "tag": "goddess_of_maids:altar_spawner_ingredient" }
+  ],
+  "result": {
+    "item": "goddess_of_maids:maid_altar_spawner"
+  }
+}

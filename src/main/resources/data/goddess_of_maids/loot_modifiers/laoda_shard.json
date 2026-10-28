@@ -1,0 +1,10 @@
+{
+  "type": "goddess_of_maids:laoda_shard",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:entities/warden"
+    }
+  ],
+  "count": 1
+}

@@ -1,0 +1,28 @@
+{
+  "blend": {
+    "func": "add",
+    "srcrgb": "srcalpha",
+    "dstrgb": "1-srcalpha"
+  },
+  "vertex": "goddess_of_maids:shock_warp",
+  "fragment": "goddess_of_maids:shock_warp",
+  "attributes": [
+    "Position",
+    "UV0",
+    "Color",
+    "Normal"
+  ],
+  "samplers": [
+    { "name": "ScreenTexture" }
+  ],
+  "uniforms": [
+    { "name": "ModelViewMat", "type": "matrix4x4", "count": 16, "values": [ 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0 ] },
+    { "name": "ProjMat", "type": "matrix4x4", "count": 16, "values": [ 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0 ] },
+    { "name": "Center", "type": "float", "count": 3, "values": [ 0.0, 0.0, -1.0 ] },
+    { "name": "Intensity", "type": "float", "count": 1, "values": [ 1.0 ] },
+    { "name": "Radius", "type": "float", "count": 1, "values": [ 1.0 ] },
+    { "name": "Ring", "type": "float", "count": 1, "values": [ 0.45 ] },
+    { "name": "RingWidth", "type": "float", "count": 1, "values": [ 0.22 ] },
+    { "name": "Bend", "type": "float", "count": 1, "values": [ 0.40 ] }
+  ]
+}

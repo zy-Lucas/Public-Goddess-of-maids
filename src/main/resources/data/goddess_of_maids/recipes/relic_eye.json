@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MMM",
+    "MHM",
+    "MMM"
+  ],
+  "key": {
+    "M": {
+      "tag": "goddess_of_maids:mossy_stones"
+    },
+    "H": {
+      "item": "minecraft:heart_of_the_sea"
+    }
+  },
+  "result": {
+    "item": "goddess_of_maids:relic_eye"
+  }
+}

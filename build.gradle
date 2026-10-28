@@ -1,0 +1,36 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group = 'com.example'
+version = '1.0.0'
+description = 'goddess_of_maids-5.9.4'
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
+repositories {
+    mavenCentral()
+    // 如果是Minecraft模组，可能需要添加以下仓库:
+    // maven { url = 'https://maven.minecraftforge.net' }
+    // maven { url = 'https://maven.fabricmc.net' }
+}
+
+dependencies {
+    // 在这里添加项目依赖
+    // implementation 'org.apache.commons:commons-lang3:3.12.0'
+    
+    // 测试依赖
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.9.2'
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}

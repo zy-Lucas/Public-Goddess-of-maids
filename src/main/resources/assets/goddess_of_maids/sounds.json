@@ -1,0 +1,154 @@
+{
+  "execute": {
+    "sounds": [
+      "goddess_of_maids:execute"
+    ]
+  },
+  "slash": {
+    "sounds": [
+      "goddess_of_maids:slash"
+    ]
+  },
+  "slash_hole": {
+    "sounds": [
+      "goddess_of_maids:slash_hole"
+    ]
+  },
+  "clear": {
+    "sounds": [
+      "goddess_of_maids:clear"
+    ]
+  },
+  "cannon_ray": {
+    "sounds": [
+      "goddess_of_maids:cannon_ray"
+    ]
+  },
+  "spin_hit": {
+    "sounds": [
+      "goddess_of_maids:spin_hit"
+    ]
+  },
+  "spin_ray": {
+    "sounds": [
+      "goddess_of_maids:spin_ray"
+    ]
+  },
+  "form_ray": {
+    "sounds": [
+      "goddess_of_maids:form_ray"
+    ]
+  },
+  "solo_beam": {
+    "sounds": [
+      "goddess_of_maids:solo_beam"
+    ]
+  },
+  "hole_start": {
+    "sounds": [
+      {
+        "name": "goddess_of_maids:hole_start",
+        "stream": true
+      }
+    ]
+  },
+  "hole_loop": {
+    "sounds": [
+      {
+        "name": "goddess_of_maids:hole_loop",
+        "stream": true
+      }
+    ]
+  },
+  "boss_theme": {
+    "sounds": [
+      {
+        "name": "goddess_of_maids:boss_theme",
+        "stream": true
+      }
+    ]
+  },
+  "mossy_wake": {
+    "sounds": [
+      "goddess_of_maids:mossy_wake"
+    ]
+  },
+  "mossy_sleep": {
+    "sounds": [
+      "goddess_of_maids:mossy_sleep"
+    ]
+  },
+  "mossy_swing": {
+    "sounds": [
+      "goddess_of_maids:mossy_swing"
+    ]
+  },
+  "mossy_throw": {
+    "sounds": [
+      "goddess_of_maids:mossy_throw"
+    ]
+  },
+  "mossy_hurt": {
+    "sounds": [
+      "goddess_of_maids:mossy_hurt"
+    ]
+  },
+  "mossy_death": {
+    "sounds": [
+      "goddess_of_maids:mossy_death"
+    ]
+  },
+  "relic_music_1": {
+    "sounds": [
+      {
+        "name": "goddess_of_maids:relic_music_1",
+        "stream": true
+      }
+    ]
+  },
+  "warden_battle": {
+    "sounds": [
+      {
+        "name": "goddess_of_maids:warden_battle",
+        "stream": true
+      }
+    ]
+  },
+  "warden_shoot": {
+    "sounds": [
+      "goddess_of_maids:warden_shoot"
+    ]
+  },
+  "warden_smash": {
+    "sounds": [
+      "goddess_of_maids:warden_smash"
+    ]
+  },
+  "warden_charge": {
+    "sounds": [
+      "goddess_of_maids:warden_charge"
+    ]
+  },
+  "warden_break": {
+    "sounds": [
+      "goddess_of_maids:warden_break"
+    ]
+  },
+  "warden_grab_slam": {
+    "sounds": [
+      "goddess_of_maids:warden_grab_slam"
+    ]
+  },
+  "warden_swing_raise": {"sounds":["goddess_of_maids:warden_swing_raise"]},
+  "warden_swing_slam": {"sounds":["goddess_of_maids:warden_swing_slam"]},
+  "warden_air_laser": {
+    "sounds": [
+      "goddess_of_maids:warden_air_laser"
+    ]
+  },
+  "warden_execute_beam": {
+    "sounds": [
+      "goddess_of_maids:warden_execute_beam"
+    ]
+  }
+}
